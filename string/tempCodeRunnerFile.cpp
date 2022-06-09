@@ -1,0 +1,2 @@
+
+	lli value = 0;

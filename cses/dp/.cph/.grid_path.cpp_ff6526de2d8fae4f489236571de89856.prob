@@ -1,0 +1,1 @@
+{"name":"Local: grid_path","url":"e:\\code\\cses\\dp\\grid_path.cpp","tests":[{"id":1648833048556,"input":"4\n....\n.*..\n...*\n*...","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\cses\\dp\\grid_path.cpp","group":"local","local":true}

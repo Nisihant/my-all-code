@@ -23,24 +23,12 @@ int main()
         REP(j,1,n+1)
         cin>>val[i][j];
     }
+    
+
+    dp[0][1]=1;
     for(int i=1;i<=n;i++)
     {
-        if(val[1][i]!='*')
-        dp[1][i]=1;
-        else
-        break;
-    }
-
-     for(int i=1;i<=n;i++)
-    {
-        if(val[i][1]!='*')
-        dp[i][1]=1;
-        else
-        break;
-    }
-    for(int i=2;i<=n;i++)
-    {
-        for(int j=2;j<=n;j++)
+        for(int j=1;j<=n;j++)
         {
             if(val[i][j]!='*')
             dp[i][j]=(dp[i-1][j]+dp[i][j-1])%mod;
